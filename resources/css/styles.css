@@ -1,0 +1,215 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h2, h3, h4 {
+  padding: 10px 0;
+}
+
+h2, h3, h4 {
+  white-space: nowrap;
+}
+
+.header {
+  background-color: black;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: left;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+min-width: 500px;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.header nav {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  margin: auto 10px auto auto;
+}
+
+.header a {
+  padding: 0 10px;
+  font-size: 20px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.mission {
+  margin-top:69px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.mission .description {
+  background-image: url('../images/img-mission-background.jpg');
+  background-size: cover;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.mission h2, .mission h4{
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.month_offers {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.month_offers .gallery {
+  width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.month_offers .offer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.month_offers .image{
+  height:200px;
+  background-size: cover;
+}
+
+.month_offers .fall {
+  background-image: url('../images/img-berryblitz.jpg');
+}
+
+.month_offers .spiced {
+  background-image: url('../images/img-spiced-rum.jpg');
+}
+
+.month_offers .seasonal {
+  background-image: url('../images/img-donut.jpg');
+}
+
+.month_offers .myrtle {
+  background-image: url('../images/img-myrtle-ave.jpg');
+}
+
+.month_offers .bedford {
+  background-image: url('../images/img-bedford-bizarre.jpg');
+}
+
+.offer h4 {
+  text-align: center;
+}
+
+.locations {
+  margin-top:69px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.locations h2.heading {
+  height: 0px;
+  width: 1200px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.locations .listings {
+  background-image: url('../images/img-locations-background.jpg');
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.locations .location {
+  background-color: black;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 15px 20px;
+}
+
+.locations span {
+  font-size: 22px;
+  padding: 20px 0;
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact h5 {
+  padding: 15px 0;
+}
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
